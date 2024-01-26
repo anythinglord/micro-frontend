@@ -1,4 +1,4 @@
-# Microfrontends Practice Repository
+# Microfrontends Implementation
 
 This repository serves as a practice ground for implementing microfrontends architecture in web development.
 

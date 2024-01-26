@@ -1,0 +1,2 @@
+// asyncronous call
+import('./bootstrap');
