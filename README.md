@@ -11,5 +11,5 @@ This repository provides examples, best practices, and resources for implementin
 ## Getting Started
 
 - To get started with this repository, clone it to your local machine:
-- entry in the container folder and run ```npm start```, next```next npm start```
-- entry in the products folder and run ```npm start```, next ```npm start```
+- entry in the container folder and run ```npm i```, next```npm run start```
+- entry in the products folder and run ```npm i```, next ```npm run start```
