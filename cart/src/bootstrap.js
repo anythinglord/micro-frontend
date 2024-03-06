@@ -1,5 +1,17 @@
 import faker from 'faker';
 
-const cartText = `<div>You have ${faker.random.number()} items in your cart</div>`;
+const mount = (el) => {
+  const cartText = `<div>You have ${faker.random.number()} items in your cart</div>`;
+  el.innerHTML = cartText;
+}
 
-document.querySelector('#cart-dev').innerHTML = cartText;
+if (process.env.NODE_ENV === 'development') {
+  const el = document.querySelector('#cart-dev');
+  if (el) {
+    // We are probably running in insolation
+    mount(el);
+  }
+}
+
+export { mount };
+
