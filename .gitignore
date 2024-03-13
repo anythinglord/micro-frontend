@@ -1,3 +1,7 @@
 Example/container/node_modules/
 Example/products/node_modules/
 Example/cart/node_modules/
+Project/packages/auth/node_modules/
+Project/packages/container/node_modules/
+Project/packages/dashboard/node_modules/
+Project/packages/marketing/node_modules/
