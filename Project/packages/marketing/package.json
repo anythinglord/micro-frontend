@@ -2,6 +2,7 @@
   "name": "marketing",
   "version": "1.0.0",
   "scripts": {
+    "start": "webpack serve --config config/webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
